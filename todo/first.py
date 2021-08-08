@@ -49,9 +49,9 @@ class data_collection:
         :return:
         '''
         print(self.dataset.shape)
-if __name__ == "__main__":
-    d = data_collection("https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv")
-    # d.print_head(3)
-    # d.print_tail()
-    d.print_correlation()
-    d.shape()
+# if __name__ == "__main__":
+#     d = data_collection("https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv")
+#     # d.print_head(3)
+#     # d.print_tail()
+#     d.print_correlation()
+#     d.shape()
