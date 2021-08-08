@@ -18,7 +18,7 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     install_requires=['pandas'],
-    keywords=['python','data collection','data science','ML','todo'],
+    keywords=['python','data collection','data science','ML','todo','custom','custom package'],
     classifiers=[
         "Development Status :: Developing",
         "Intended Audience :: Developers",
