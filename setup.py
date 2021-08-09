@@ -20,7 +20,7 @@ setup(
     install_requires=['pandas'],
     keywords=['python','data collection','data science','ML','todo','custom','custom package'],
     classifiers=[
-        "Development Status :: Developing",
+        "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
