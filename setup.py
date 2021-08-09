@@ -10,7 +10,7 @@ VERSION = 0.1
 DESCRIPTION = "A todo app to understand the building packages."
 
 setup(
-    name="kittu_todo",
+    name="beunique",
     version=VERSION,
     author="Dara Ekanth",
     author_email="daraekanth3@gmail.com",
