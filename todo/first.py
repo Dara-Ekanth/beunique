@@ -49,7 +49,21 @@ class data_collection:
         :return:
         '''
         print(self.dataset.shape)
+class repeat:
+    '''
+    This is a class to repeat the string.
+    '''
+    def print_repeat(self,word = "hello",count = 100):
+        '''
+        :param word: str
+               count: int
+               It will print the input string for count number of times.
+        '''
+        print((word+" ")*count)
+
 # if __name__ == "__main__":
+#     r = repeat()
+#     r.print_repeat()
 #     d = data_collection("https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv")
 #     # d.print_head(3)
 #     # d.print_tail()
