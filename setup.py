@@ -5,7 +5,7 @@ current_directory = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(current_directory,"readme.txt")) as file:
     long_description = file.read()
 
-VERSION = 0.1
+VERSION = 0.2
 DESCRIPTION = "A todo app to understand the building packages."
 
 setup(
