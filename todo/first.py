@@ -13,7 +13,7 @@ class data_collection:
     '''
         class for the data collection. A valid url is expected to load the dataset.
     '''
-    def __init__(self,url):
+    def __init__(self,url="https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv"):
         '''
         creates a new instance of a data collection class
         :param url: str
@@ -52,20 +52,22 @@ class data_collection:
 class repeat:
     '''
     This is a class to repeat the string.
+    No arguments are expected.
     '''
     def print_repeat(self,word = "hello",count = 100):
         '''
         :param word: str
                count: int
                It will print the input string for count number of times.
+               The default word is hello and count is 100.
         '''
         print((word+" ")*count)
 
-# if __name__ == "__main__":
-#     r = repeat()
-#     r.print_repeat()
+if __name__ == "__main__":
+    r = repeat()
+    r.print_repeat("congrats",10)
 #     d = data_collection("https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv")
-#     # d.print_head(3)
+#     d.print_head(3)
 #     # d.print_tail()
 #     d.print_correlation()
 #     d.shape()
