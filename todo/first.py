@@ -64,11 +64,14 @@ class repeat:
                It will print the input string for count number of times.
                The default word is hello and count is 100.
         '''
-        print((word+" ")*count)
+        for i in range(count):
+            if i%5 == 0:
+                print()
+            print(word,end=" ")
 
 # if __name__ == "__main__":
-    # r = repeat()
-    # r.print_repeat("congrats",10)
+#     r = repeat()
+#     r.print_repeat("congrats",10)
     # d = data_collection("kittu")
     # d.print_head(3)
 #     # d.print_tail()
