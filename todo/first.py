@@ -20,7 +20,10 @@ class data_collection:
             should be a valid url to retrieve data or path of the dataset.
         '''
         self.url = url
-        self.dataset = pd.read_csv(self.url)
+        try:
+            self.dataset = pd.read_csv(self.url)
+        except:
+            raise FileNotFoundError("Incorrect url or path.")
     def print_head(self,rows = 5):
         '''
 
@@ -63,11 +66,11 @@ class repeat:
         '''
         print((word+" ")*count)
 
-if __name__ == "__main__":
-    r = repeat()
-    r.print_repeat("congrats",10)
-#     d = data_collection("https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv")
-#     d.print_head(3)
+# if __name__ == "__main__":
+    # r = repeat()
+    # r.print_repeat("congrats",10)
+    # d = data_collection("kittu")
+    # d.print_head(3)
 #     # d.print_tail()
 #     d.print_correlation()
 #     d.shape()
