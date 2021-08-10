@@ -2,8 +2,9 @@ from setuptools import setup,find_packages
 import os
 current_directory = os.path.abspath(os.path.dirname(__file__))
 
-with open(os.path.join(current_directory,"readme.txt")) as file:
+with open(os.path.join(current_directory,"README.md"),encoding='utf-8') as file:
     long_description = file.read()
+
 
 VERSION = 0.2
 DESCRIPTION = "A todo app to understand the building packages."
@@ -15,6 +16,7 @@ setup(
     author_email="daraekanth3@gmail.com",
     description=DESCRIPTION,
     long_description=long_description,
+    long_description_content_type='text/markdown',
     url = "https://github.com/Dara-Ekanth/todo_custom_package",
     project_urls = {"Bug Tracker":"https://github.com/Dara-Ekanth/todo_custom_package/issues"},
     packages=find_packages(),
