@@ -27,7 +27,7 @@ Check the [changelog here].
 ```python
 from todo import data_collection
 # instanciate a variable for data_collection class.
-collector = data_collection() #A url is expected, default url is 'https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv'
+collector = data_collection() #A url or path is expected, default url is 'https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv'
 collector.print_head() #Default value of rows is 5.
 ```
 #### output 
