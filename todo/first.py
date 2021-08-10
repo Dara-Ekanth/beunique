@@ -16,8 +16,8 @@ class data_collection:
     def __init__(self,url="https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv"):
         '''
         creates a new instance of a data collection class
-        :param url: str
-            should be a valid url to retrieve data.
+        :param url/path: str
+            should be a valid url to retrieve data or path of the dataset.
         '''
         self.url = url
         self.dataset = pd.read_csv(self.url)
