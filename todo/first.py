@@ -22,8 +22,8 @@ class data_collection:
         self.url = url
         try:
             self.dataset = pd.read_csv(self.url)
-        except:
-            raise FileNotFoundError("Incorrect url or path.")
+        except Exception as e:
+            print("An error is encountered",e)
     def print_head(self,rows = 5):
         '''
 
@@ -72,8 +72,8 @@ class repeat:
 # if __name__ == "__main__":
 #     r = repeat()
 #     r.print_repeat("congrats",10)
-    # d = data_collection("kittu")
-    # d.print_head(3)
-#     # d.print_tail()
+#     d = data_collection("kittu")
+#     d.print_head(3)
+    # d.print_tail()
 #     d.print_correlation()
 #     d.shape()
