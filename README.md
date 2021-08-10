@@ -63,7 +63,7 @@ hello hello hello hello hello hello hello hello hello hello hello hello hello he
 ```
 ### Example 4:
 ```python
-repetitor.print_repeat("congrats",10) ## Here we are specifying word as congrats for 10 times.
+repetitor.print_repeat("congrats",10) # Here we are specifying word as congrats for 10 times.
 ```
 #### output
 ```text
