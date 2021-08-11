@@ -18,7 +18,7 @@ $ sudo pip3 install beunique
 Check the [changelog here].
 ### Available modules in beunique package is
 ```bash
-|_todo
+|_beunique
   |_data_collection
   |_repeat
 ```
