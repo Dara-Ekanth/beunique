@@ -6,7 +6,7 @@ with open(os.path.join(current_directory,"README.md"),encoding='utf-8') as file:
     long_description = file.read()
 
 
-VERSION = 0.2
+VERSION = "0.1.2"
 DESCRIPTION = "A todo app to understand the building packages."
 
 setup(
@@ -21,7 +21,7 @@ setup(
     project_urls = {"Bug Tracker":"https://github.com/Dara-Ekanth/todo_custom_package/issues"},
     packages=find_packages(),
     install_requires=['pandas'],
-    keywords=['python','data collection','data science','ML','todo','custom','custom package'],
+    keywords=['python','data collection','data science','ML','todo','custom','custom package','beunique'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
