@@ -25,7 +25,7 @@ Check the [changelog here].
 ### How to use:
 ### Example 1:
 ```python
-from todo import data_collection
+from beunique import data_collection
 # instanciate a variable for data_collection class.
 collector = data_collection() #A url or path is expected, default url is 'https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv'
 collector.print_head() #Default value of rows is 5.
@@ -52,7 +52,7 @@ collector.print_head(3) # Here we are specifying for 3 rows.
 ```
 ### Example 3:
 ```python
-from todo import repeat
+from beunique import repeat
 # instanciate a variable for repeat class.
 repetitor = repeat() 
 repetitor.print_repeat() #The default word is hello and count is 100.
