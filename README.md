@@ -59,7 +59,26 @@ repetitor.print_repeat() #The default word is hello and count is 100.
 ```
 #### output
 ```text
-hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
+                hello hello hello hello hello 
 ```
 ### Example 4:
 ```python
@@ -67,7 +86,8 @@ repetitor.print_repeat("congrats",10) # Here we are specifying word as congrats 
 ```
 #### output
 ```text
-congrats congrats congrats congrats congrats congrats congrats congrats congrats congrats
+            congrats congrats congrats congrats congrats 
+            congrats congrats congrats congrats congrats
 ```
 
 # License
