@@ -71,6 +71,7 @@ class repeat:
 
 # if __name__ == "__main__":
 #     r = repeat()
+#     # r.print_repeat()
 #     r.print_repeat("congrats",10)
 #     d = data_collection("kittu")
 #     d.print_head(3)
