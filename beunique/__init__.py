@@ -1,2 +1,2 @@
-from todo.first import data_collection
-from todo.first import repeat
+from .first import data_collection
+from .first import repeat
