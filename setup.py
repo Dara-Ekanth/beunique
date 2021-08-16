@@ -6,7 +6,7 @@ with open(os.path.join(current_directory,"README.md"),encoding='utf-8') as file:
     long_description = file.read()
 
 
-VERSION = "0.1.2"
+VERSION = "0.1.3"
 DESCRIPTION = "A todo app to understand the building packages."
 
 setup(
