@@ -1,4 +1,4 @@
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/beunique)  ![PyPI - Status](https://img.shields.io/pypi/status/beunique)  ![PyPI](https://img.shields.io/pypi/v/beunique) ![PyPI - License](https://img.shields.io/pypi/l/beunique)
+![developer](https://img.shields.io/badge/Developed%20By%20%3A-Dara%20Ekanth-teal) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/beunique)  ![PyPI - Status](https://img.shields.io/pypi/status/beunique)  ![PyPI](https://img.shields.io/pypi/v/beunique) ![PyPI - License](https://img.shields.io/pypi/l/beunique)
 # [beunique]
 
 ## This is a basic project for learning how to make the PIP([PyPI]) package
